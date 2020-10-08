@@ -1,0 +1,22 @@
+{
+  "name": "lib-client",
+  "version": "1.0.0",
+  "description": "using to call websocket server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buingoctai/lib-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buingoctai/lib-client/issues"
+  },
+  "homepage": "https://github.com/buingoctai/lib-client#readme",
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
+}
