@@ -28,6 +28,5 @@ buildInfor: { buildBranch: "v101" },})
 ## Get result
 
 - doRunBuild function return a promise.
-- Get download url or error in build processing with then.
-  Example: Check isError prop, if it equal true. That have errors in running build and get message prop to show error. If it equal false, get message prop and it is download url.
-- Get error in connecting to websocker server with catch.
+- Get download url with then.
+- Get error in connecting to websocker server or error in build processing with catch.
